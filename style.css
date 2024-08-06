@@ -1,0 +1,192 @@
+*{
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 10px;
+    color:rgb(2, 13, 17);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px rgb(244, 4, 120);
+    text-decoration:dotted;
+}
+
+video{
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 80%;
+    left: 43%;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+h1:hover{
+    color: chartreuse;
+    text-shadow: 2px 4px 6px rgb(245, 11, 167);
+}
+
+span{
+    color:darkblue;
+    font-size: 50px;
+}
+
+#home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    background-image: url(https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2023/Scene-Passion/Christophorus-408-Dulquer-Salmaan/Salmaan-2.jpg/jcr:content/Salmaan%202.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.main{
+    border: 5px double red;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    left: 60%;
+    margin-top: 25%;
+    box-shadow: 2px 4px 6px blue;
+}
+
+main:hover{
+    scale:1.05;
+}
+
+h3{
+    color: aqua;
+    background-color: blue;
+    font-style: italic;
+    text-align: center;
+}
+
+.pic{
+    display: flex;
+
+}
+
+.pic img{
+    width: 400px;
+}
+
+.pic h4{
+    color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.pic p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.gallery img{
+    height: 250px;
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.galler{
+    box-shadow: 2px 4px 6px green;
+}
+
+.gallery img:hover{
+    scale:1.05;
+}
+
+.row{
+    display: flex;
+    margin-top: 6px;
+}
+
+.box{
+    border:3px ridge red;
+    margin: 5px;
+    height: 400px;
+    align-items: center;
+    background: linear-gradient(to top,rgb(183, 201, 52)50%,rgb(22, 178, 230)50%);
+    background-size: 100% 200%;
+    transition:all 61.02s;
+}
+
+.box:hover{
+    background-position:right bottom;
+    filter: drop-shadow(3px 4px 20px rgb(255, 74, 2));
+}
+
+.box img{
+    width: 320px;
+    margin-left: 20px;
+}
+
+.box h5{
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 2px 3px 4px black;
+}
+
+.box p{
+    text-align: justify;
+
+}
+
+form{
+    width: 500px;
+margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+    background-color: cornsilk;
+    color: rgb(5, 5, 5);
+}
+
+button{
+    background-color: bisque;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color:chartreuse;
+}
